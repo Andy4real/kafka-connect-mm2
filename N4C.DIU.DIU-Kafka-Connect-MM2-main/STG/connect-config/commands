@@ -1,0 +1,2 @@
+curl -s http:///10.32.196.78:8083/connectors/mm2-hbc/status
+curl -X PUT -H "Content-Type: application/json" --data @mm2-hbc.json http://10.32.196.78:8083/connectors/mm2-hbc/config
